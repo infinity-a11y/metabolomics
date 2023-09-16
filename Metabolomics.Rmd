@@ -50,17 +50,7 @@ annotate metabolites with interconnecting relationships within complex
 biological systems. Plotting of this data convertes big datasets in a 
 human-readable format to enable interpretations and make correlations obvious.
 
-1. In the following code chunk, change the path in the argument `dir` of the 
-function `setwd()` with the previously created local folder `Metabolomics` that 
-contains all (unzipped) data for this assignment. Note that R only reads forward 
-slashes (/) and no backwards slashes (\) as used in Windows Explorer. Run the 
-code.
-
-```{r}
-setwd(dir = "D:/OneDrive/Projekte/Programming/R/Projekte/metabolomics") # <- change here
-```
-
-2. Run the chunk to see an outline of the workflow of the FELLA package. Before 
+Run the chunk to see an outline of the workflow of the FELLA package. Before 
 the compounds are input (block II), the "raw" data is processed and filtered by 
 functions of the omu package.
 
